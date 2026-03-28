@@ -1,0 +1,39 @@
+{
+	"name": "AzureSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "SourceSchema",
+				"type": "varchar"
+			},
+			{
+				"name": "SourceTable",
+				"type": "varchar"
+			},
+			{
+				"name": "TargetTable",
+				"type": "varchar"
+			},
+			{
+				"name": "LastModifiedColumn",
+				"type": "varchar"
+			},
+			{
+				"name": "LastLoadTimestamp",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "MetadataDrivenLoad"
+		}
+	}
+}
