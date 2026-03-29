@@ -2,9 +2,9 @@
 	"name": "mtestingadf2026",
 	"properties": {
 		"globalParameters": {
-			"madhava": {
+			"rootpath": {
 				"type": "string",
-				"value": "1234"
+				"value": "https://newpractise2026.blob.core.windows.net/practise/input/"
 			}
 		}
 	},
