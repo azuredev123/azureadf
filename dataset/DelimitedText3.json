@@ -5,20 +5,13 @@
 			"referenceName": "AzureDataLakeStorage1",
 			"type": "LinkedServiceReference"
 		},
-		"parameters": {
-			"targetTable": {
-				"type": "string"
-			},
-			"filename": {
-				"type": "string"
-			}
-		},
+ main
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"folderPath": "raw",
+ main
 				"fileSystem": "practise"
 			},
 			"columnDelimiter": ",",
@@ -28,23 +21,7 @@
 		},
 		"schema": [
 			{
-				"name": "OrderID",
-				"type": "String"
-			},
-			{
-				"name": "ProductID",
-				"type": "String"
-			},
-			{
-				"name": "CustomerName",
-				"type": "String"
-			},
-			{
-				"name": "Quantity",
-				"type": "String"
-			},
-			{
-				"name": "OrderDate",
+ main
 				"type": "String"
 			}
 		]
