@@ -26,6 +26,9 @@
 		"AzureSqlDatabase1_properties_typeProperties_userName": {
 			"value": "madhava"
 		},
+		"RestService1_properties_typeProperties_url": {
+			"value": "https://json-placeholder.mock.beeceptor.com/users"
+		},
 		"containerUri": {
 			"value": ""
 		},
