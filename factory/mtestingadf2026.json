@@ -2,7 +2,7 @@
 	"name": "mtestingadf2026",
 	"properties": {
 		"globalParameters": {
-			"rootpath": {
+			"Rootpathinput": {
 				"type": "string",
 				"value": "https://newpractise2026.blob.core.windows.net/practise/input/"
 			},
