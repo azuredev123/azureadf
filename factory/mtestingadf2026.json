@@ -1,5 +1,13 @@
 {
 	"name": "mtestingadf2026",
+	"properties": {
+		"globalParameters": {
+			"madhava": {
+				"type": "string",
+				"value": "1234"
+			}
+		}
+	},
 	"location": "centralindia",
 	"identity": {
 		"type": "SystemAssigned",
