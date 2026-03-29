@@ -5,12 +5,13 @@
 			"referenceName": "AzureDataLakeStorage1",
 			"type": "LinkedServiceReference"
 		},
+ main
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"folderPath": "input",
+ main
 				"fileSystem": "practise"
 			},
 			"columnDelimiter": ",",
@@ -20,27 +21,7 @@
 		},
 		"schema": [
 			{
-				"name": "EmployeeID",
-				"type": "String"
-			},
-			{
-				"name": "FirstName",
-				"type": "String"
-			},
-			{
-				"name": "LastName",
-				"type": "String"
-			},
-			{
-				"name": "Department",
-				"type": "String"
-			},
-			{
-				"name": "Email",
-				"type": "String"
-			},
-			{
-				"name": "Salary",
+ main
 				"type": "String"
 			}
 		]
