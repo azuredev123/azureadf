@@ -1,21 +1,15 @@
 {
 	"name": "mtestingadf2026",
-	"properties": {
-		"globalParameters": {
-			"Rootpathinput": {
-				"type": "string",
-				"value": "https://newpractise2026.blob.core.windows.net/practise/input/"
-			},
-			"rootpathoutput": {
-				"type": "string",
-				"value": "https://newpractise2026.blob.core.windows.net/practise/target/"
-			}
-		}
-	},
 	"location": "centralindia",
 	"identity": {
-		"type": "SystemAssigned",
+		"type": "SystemAssigned,UserAssigned",
 		"principalId": "4d27b28a-c129-4b84-a03b-35dec0ea9b51",
-		"tenantId": "38d58933-476c-4ff3-ba04-c4785e06f5b6"
+		"tenantId": "38d58933-476c-4ff3-ba04-c4785e06f5b6",
+		"userAssignedIdentities": {
+			"/subscriptions/7aa0b063-cb13-4c2a-acac-a012ba058b28/resourcegroups/madhava/providers/Microsoft.ManagedIdentity/userAssignedIdentities/resourcesharing": {
+				"clientId": "ba06a5af-a2fd-4e2e-ba29-93b45627da54",
+				"principalId": "1171528b-4a46-4bbe-8f38-689674faf0f3"
+			}
+		}
 	}
 }
